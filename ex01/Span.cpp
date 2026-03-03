@@ -72,7 +72,7 @@ const char *Span::NotEnoughNumbersException::what() const throw()
 	return ("not enough number to answer\n");
 }
 
-/*void Span::printVector()
+void Span::printVector()
 {
 	std::sort(vect.begin(), vect.end());
 	for (unsigned int i = 0; i < vect.size(); i++)
@@ -80,4 +80,4 @@ const char *Span::NotEnoughNumbersException::what() const throw()
 		std::cout << vect[i] << ", ";
 	}
 	std::cout << std::endl;
-}*/
+}

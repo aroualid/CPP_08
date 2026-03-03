@@ -8,6 +8,7 @@
 int main()
 {
     // VECTOR
+	std::cout << "_____VECTOR____\n";
     std::vector<int> v(5);
     for (int i = 0; i < 5; ++i)
         v[i] = i * 10;
@@ -34,6 +35,7 @@ int main()
     }
 
     // DEQUE
+	std::cout << "_____DEQUE____\n";
     std::deque<int> d(4);
     for (int i = 0; i < 4; ++i)
         d[i] = i * 5;
@@ -60,6 +62,7 @@ int main()
     }
 
     // LIST
+	std::cout << "_____LIST____\n";
     std::list<int> l;
     for (int i = 0; i < 5; ++i)
         l.push_back(100 + i);
@@ -86,6 +89,7 @@ int main()
     }
 
     // SET
+	std::cout << "_____SET____\n";
     std::set<int> s;
     s.insert(7);
     s.insert(77);
