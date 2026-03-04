@@ -25,7 +25,7 @@ public:
 	int shortestSpan();
 	int longestSpan() const;
 	void addMultiplesNumbers(std::vector<int> &new_numbers);
-	void printVector();
+	//void printVector();
 private:
 	Span();
 	unsigned int n;
